@@ -19,4 +19,9 @@ public class ComplexOperationsTest {
         Assertions.assertEquals(9, complexOperations.calculateSquare(3));
     }
 
+    @Test
+    void test_calculateCube(){
+        Assertions.assertEquals(27, complexOperations.calculateCube(3));
+    }
+
 }
