@@ -2,8 +2,7 @@ package org.testify;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class ComplexOperationsTest {
 
@@ -17,5 +16,36 @@ public class ComplexOperationsTest {
 
         assertFalse(co.isAnagram("ab", "abc"));
         assertFalse(co.isAnagram("aba", "ab"));
+    }
+
+    @Test
+    public void testIsAnagramExceptions() {
+        assertThrows(IllegalArgumentException.class, () -> {
+            ComplexOperations oc = new ComplexOperations();
+
+            oc.isAnagram("", null);
+
+        });
+
+        assertThrows(IllegalArgumentException.class, () -> {
+            ComplexOperations oc = new ComplexOperations();
+
+            oc.isAnagram(null, null);
+
+        });
+
+        assertThrows(IllegalArgumentException.class, () -> {
+            ComplexOperations oc = new ComplexOperations();
+
+            oc.isAnagram("as", null);
+
+        });
+
+        assertThrows(IllegalArgumentException.class, () -> {
+            ComplexOperations oc = new ComplexOperations();
+
+            oc.isAnagram(null, "");
+
+        });
     }
 }
