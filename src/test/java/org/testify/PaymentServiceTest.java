@@ -6,6 +6,7 @@ import org.testify.entity.BankService;
 import org.testify.entity.BaseRateProvider;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.mockito.Mockito.mock;
 
 class PaymentServiceTest {
@@ -29,5 +30,10 @@ class PaymentServiceTest {
     @Test
     public void calculateInterestRateAdjustmentCreditScore745() {
         assertEquals(1.25, PaymentService.calculateInterestRateAdjustment(10000, 745, 2, baseRateProvider));
+    }
+
+    @Test
+    public void makePaymentTest() {
+        assertTrue(paymentService.makePayment("1122", "2211", 10));
     }
 }
