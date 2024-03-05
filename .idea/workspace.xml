@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="79a3eaac-e9c9-4b16-9029-216c663bffe2" name="Changes" comment="remove tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/testify/MathUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/testify/MathUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/testify/ComplexOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/testify/ComplexOperationsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/testify/MathUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/testify/MathUtilsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/testify/PaymentServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/testify/PaymentServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +54,13 @@
     "JUnit.MathUtilsTest.testmModulusWithRoundingOddA.executor": "Run",
     "JUnit.MathUtilsTest.testmModulusWithRoundingValid.executor": "Run",
     "JUnit.MathUtilsTest.testmModulusWithRoundingZeroB.executor": "Run",
+    "JUnit.PaymentServiceTest.testCalculateInterestRateAdjustmentValidHighCreditScore.executor": "Run",
+    "JUnit.PaymentServiceTest.testCalculateInterestRateAdjustmentValidHighLoanAmount.executor": "Run",
+    "JUnit.PaymentServiceTest.testCalculateInterestRateAdjustmentValidLowLoanAmount.executor": "Run",
+    "JUnit.PaymentServiceTest.testCalculateInterestRateAdjustmentValidMediumCreditScore.executor": "Run",
+    "JUnit.PaymentServiceTest.testCalculateInterestRateAdjustmentValidMediumDuration.executor": "Run",
+    "JUnit.PaymentServiceTest.testCalculateInterestRateAdjustmentValidSuperHighCreditScore.executor": "Run",
+    "JUnit.PaymentServiceTest.testCalculateInterestRateAdjustmentValidSuperHighLoanAmount.executor": "Run",
     "Maven.PluginTesting [compile].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -80,8 +85,8 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/testify" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MathUtilsTest.testDivZeroB">
-    <configuration name="MathUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PaymentServiceTest">
+    <configuration name="PaymentServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PluginTesting" />
       <extension name="coverage">
         <pattern>
@@ -90,13 +95,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.testify" />
-      <option name="MAIN_CLASS_NAME" value="org.testify.MathUtilsTest" />
+      <option name="MAIN_CLASS_NAME" value="org.testify.PaymentServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MathUtilsTest.testDivZeroB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PaymentServiceTest.testCalculateInterestRateAdjustmentValidLongDuration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PluginTesting" />
       <extension name="coverage">
         <pattern>
@@ -105,14 +110,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.testify" />
-      <option name="MAIN_CLASS_NAME" value="org.testify.MathUtilsTest" />
-      <option name="METHOD_NAME" value="testDivZeroB" />
+      <option name="MAIN_CLASS_NAME" value="org.testify.PaymentServiceTest" />
+      <option name="METHOD_NAME" value="testCalculateInterestRateAdjustmentValidLongDuration" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MathUtilsTest.testmModulusWithRoundingEvenB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PaymentServiceTest.testInvalidCreditScoreHigh" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PluginTesting" />
       <extension name="coverage">
         <pattern>
@@ -121,14 +126,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.testify" />
-      <option name="MAIN_CLASS_NAME" value="org.testify.MathUtilsTest" />
-      <option name="METHOD_NAME" value="testmModulusWithRoundingEvenB" />
+      <option name="MAIN_CLASS_NAME" value="org.testify.PaymentServiceTest" />
+      <option name="METHOD_NAME" value="testInvalidCreditScoreHigh" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MathUtilsTest.testmModulusWithRoundingOddA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PaymentServiceTest.testInvalidLoanAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PluginTesting" />
       <extension name="coverage">
         <pattern>
@@ -137,14 +142,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.testify" />
-      <option name="MAIN_CLASS_NAME" value="org.testify.MathUtilsTest" />
-      <option name="METHOD_NAME" value="testmModulusWithRoundingOddA" />
+      <option name="MAIN_CLASS_NAME" value="org.testify.PaymentServiceTest" />
+      <option name="METHOD_NAME" value="testInvalidLoanAmount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MathUtilsTest.testmModulusWithRoundingZeroB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PaymentServiceTest.testInvaliddurationYears" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PluginTesting" />
       <extension name="coverage">
         <pattern>
@@ -153,8 +158,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.testify" />
-      <option name="MAIN_CLASS_NAME" value="org.testify.MathUtilsTest" />
-      <option name="METHOD_NAME" value="testmModulusWithRoundingZeroB" />
+      <option name="MAIN_CLASS_NAME" value="org.testify.PaymentServiceTest" />
+      <option name="METHOD_NAME" value="testInvaliddurationYears" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -162,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MathUtilsTest.testDivZeroB" />
-        <item itemvalue="JUnit.MathUtilsTest.testmModulusWithRoundingZeroB" />
-        <item itemvalue="JUnit.MathUtilsTest" />
-        <item itemvalue="JUnit.MathUtilsTest.testmModulusWithRoundingOddA" />
-        <item itemvalue="JUnit.MathUtilsTest.testmModulusWithRoundingEvenB" />
+        <item itemvalue="JUnit.PaymentServiceTest" />
+        <item itemvalue="JUnit.PaymentServiceTest.testInvalidCreditScoreHigh" />
+        <item itemvalue="JUnit.PaymentServiceTest.testInvaliddurationYears" />
+        <item itemvalue="JUnit.PaymentServiceTest.testInvalidLoanAmount" />
+        <item itemvalue="JUnit.PaymentServiceTest.testCalculateInterestRateAdjustmentValidLongDuration" />
       </list>
     </recent_temporary>
   </component>
@@ -204,6 +209,21 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="remove tests" />
     <option name="LAST_COMMIT_MESSAGE" value="remove tests" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/org/testify/PaymentServiceTest.java</url>
+          <line>55</line>
+          <properties class="org.testify.PaymentServiceTest" method="testCalculateInterestRateAdjustmentValidMediumDuration">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PluginTesting$All_in_PluginTesting.ic" NAME="All in PluginTesting Coverage Results" MODIFIED="1709560456751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
