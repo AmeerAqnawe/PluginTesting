@@ -58,6 +58,10 @@ public class ComplexOperationsTest {
     public void testCalculateSquare() {
         ComplexOperations co = new ComplexOperations();
 
+        assertEquals(1, co.calculateSquare(1));
+        assertEquals(0, co.calculateSquare(0));
+
+
         assertEquals(9, co.calculateSquare(3));
         assertEquals(81, co.calculateSquare(9));
 
@@ -69,6 +73,13 @@ public class ComplexOperationsTest {
             ComplexOperations oc = new ComplexOperations();
 
             oc.calculateSquare(-10);
+
+        });
+
+        assertThrows(IllegalArgumentException.class, () -> {
+            ComplexOperations oc = new ComplexOperations();
+
+            oc.calculateSquare(-1);
 
         });
 
