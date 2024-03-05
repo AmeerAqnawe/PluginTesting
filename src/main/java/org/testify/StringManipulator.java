@@ -2,6 +2,8 @@ package org.testify;
 
 public class StringManipulator {
 
+    final String ERROR_MESSAGE = "Input string cannot be null";
+
     /**
      * Concatenates two strings.
      *
@@ -26,7 +28,7 @@ public class StringManipulator {
      */
     public String toUpperCase(String str) {
         if (str == null) {
-            throw new IllegalArgumentException("Input string cannot be null");
+            throw new IllegalArgumentException(ERROR_MESSAGE);
         }
 
         return str.toUpperCase();
@@ -41,7 +43,7 @@ public class StringManipulator {
      */
     public int stringLength(String str) {
         if (str == null) {
-            throw new IllegalArgumentException("Input string cannot be null");
+            throw new IllegalArgumentException(ERROR_MESSAGE);
         }
         return str.length();
     }
@@ -55,7 +57,7 @@ public class StringManipulator {
      */
     public String longestSubstringWithoutRepeatingCharacters(String str) {
         if (str == null) {
-            throw new IllegalArgumentException("Input string cannot be null");
+            throw new IllegalArgumentException(ERROR_MESSAGE);
         }
         int n = str.length();
         String output = "";
