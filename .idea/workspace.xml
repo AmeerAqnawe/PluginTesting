@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79a3eaac-e9c9-4b16-9029-216c663bffe2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="79a3eaac-e9c9-4b16-9029-216c663bffe2" name="Changes" comment="dummy">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/testify/ComplexOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/testify/ComplexOperationsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +20,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7
@@ -36,6 +39,7 @@
     "JUnit.ComplexOperationsTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "paticipant4",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/guest004/Downloads/Gamekins IntelliJ Plugin-1.1.0-SNAPSHOT(1).zip",
@@ -104,10 +108,23 @@
       <updated>1709559876352</updated>
       <workItem from="1709559877594" duration="722000" />
     </task>
+    <task id="LOCAL-00001" summary="dummy">
+      <option name="closed" value="true" />
+      <created>1709639675822</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709639675822</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="dummy" />
+    <option name="LAST_COMMIT_MESSAGE" value="dummy" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PluginTesting$All_in_PluginTesting.ic" NAME="All in PluginTesting Coverage Results" MODIFIED="1709560456751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
