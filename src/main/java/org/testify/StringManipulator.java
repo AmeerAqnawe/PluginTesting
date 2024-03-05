@@ -28,6 +28,7 @@ public class StringManipulator {
         if (str == null) {
             throw new IllegalArgumentException("Input string cannot be null");
         }
+
         return str.toUpperCase();
     }
 

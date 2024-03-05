@@ -9,6 +9,7 @@ public class MathUtils {
      * Creates an instance of MathUtils.
      */
     public MathUtils() {
+
     }
 
     /**

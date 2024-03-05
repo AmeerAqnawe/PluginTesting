@@ -34,6 +34,7 @@ public class PaymentService {
 
         double rateAdjustment = 0.0;
 
+
         if (loanAmount < 100000) {
             rateAdjustment += 0.5;
         } else if (loanAmount >= 100000 && loanAmount <= 500000) {
