@@ -33,6 +33,11 @@ class PaymentServiceTest {
     }
 
     @Test
+    public void calculateInterestRateAdjustmentLongTermLoan() {
+        assertEquals(0.5, PaymentService.calculateInterestRateAdjustment(10000, 800,15, baseRateProvider));
+    }
+
+    @Test
     public void makePaymentTest() {
         assertTrue(paymentService.makePayment("1122", "2211", 10));
     }
