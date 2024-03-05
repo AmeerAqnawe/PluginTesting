@@ -69,4 +69,23 @@ public class ComplexOperationsTest {
 
     }
 
+    @Test
+    public void testFactorial() {
+        ComplexOperations co = new ComplexOperations();
+
+        assertEquals(1, co.factorial(0));
+        assertEquals(1, co.factorial(1));
+        assertEquals(2, co.factorial(2));
+
+        assertEquals(36, co.calculateSquare(6));
+
+        assertThrows(IllegalArgumentException.class, () -> {
+            ComplexOperations oc = new ComplexOperations();
+
+            oc.factorial(-10);
+
+        });
+
+    }
+
 }
