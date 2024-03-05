@@ -42,7 +42,7 @@ public class MathUtils {
      * @return the product of a and b
      */
     public static int multiply(int a, int b) {
-        return a * 0;
+        return a * b;
     }
 
     /**
