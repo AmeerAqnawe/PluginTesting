@@ -2,6 +2,9 @@ package org.testify;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class ComplexOperationsTest {
@@ -87,6 +90,18 @@ public class ComplexOperationsTest {
             oc.factorial(-10);
 
         });
+
+    }
+
+    @Test
+    public void testgenerateprime() {
+        ComplexOperations co = new ComplexOperations();
+
+        assertEquals(List.of(2), co.generatePrimes(1));
+        assertEquals(new ArrayList<>(), co.generatePrimes(0));
+        assertEquals(new ArrayList<>(), co.generatePrimes(-1));
+        assertEquals(List.of(2,3), co.generatePrimes(2));
+        assertEquals(List.of(2,3,5), co.generatePrimes(3));
 
     }
 

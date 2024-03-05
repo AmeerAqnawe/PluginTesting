@@ -64,7 +64,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/testify" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ComplexOperationsTest.testIsAnagram">
+  <component name="RunManager" selected="JUnit.ComplexOperationsTest.testgenerateprime">
     <configuration name="All in PluginTesting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PluginTesting" />
       <option name="PACKAGE_NAME" value="" />
@@ -120,8 +120,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ComplexOperationsTest.testgenerateprime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PluginTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.testify.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.testify" />
+      <option name="MAIN_CLASS_NAME" value="org.testify.ComplexOperationsTest" />
+      <option name="METHOD_NAME" value="testgenerateprime" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ComplexOperationsTest.testgenerateprime" />
         <item itemvalue="JUnit.ComplexOperationsTest.testIsAnagram" />
         <item itemvalue="JUnit.ComplexOperationsTest.testFactorial" />
         <item itemvalue="JUnit.ComplexOperationsTest" />
