@@ -38,4 +38,13 @@ public class StringManipulatorTest {
                 () -> manipulator.concatenate("Test", null)
         );
     }
+
+    @Test
+    void TestLongestSubstringWithoutRepeatingCharacters() {
+        StringManipulator manipulator = new StringManipulator();
+        String testString = "abcdefabc";
+        String expectedResult = "abcdef";
+
+        Assertions.assertEquals(expectedResult, manipulator.longestSubstringWithoutRepeatingCharacters(testString));
+    }
 }
