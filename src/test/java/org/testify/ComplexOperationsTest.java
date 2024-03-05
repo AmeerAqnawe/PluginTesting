@@ -117,7 +117,7 @@ public class ComplexOperationsTest {
     }
 
     @Test
-    public void testgenerateprime() {
+    public void testGeneratePrime() {
         ComplexOperations co = new ComplexOperations();
 
         assertEquals(List.of(2), co.generatePrimes(1));
@@ -128,4 +128,22 @@ public class ComplexOperationsTest {
 
     }
 
+    @Test
+    public void testPalindrome() {
+        ComplexOperations co = new ComplexOperations();
+        assertThrows(IllegalArgumentException.class, () -> co.isPalindrome(null));
+
+        assertTrue(co.isPalindrome(""));
+        assertTrue(co.isPalindrome("a"));
+        assertTrue(co.isPalindrome("aa"));
+        assertTrue(co.isPalindrome("aba"));
+        assertTrue(co.isPalindrome("abba"));
+        assertTrue(co.isPalindrome("racecar"));
+
+        assertFalse(co.isPalindrome("aA"));
+        assertFalse(co.isPalindrome("abab"));
+
+
+
+    }
 }

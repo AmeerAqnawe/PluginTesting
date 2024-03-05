@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79a3eaac-e9c9-4b16-9029-216c663bffe2" name="Changes" comment="gen prime" />
+    <list default="true" id="79a3eaac-e9c9-4b16-9029-216c663bffe2" name="Changes" comment="is prime">
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/testify/ComplexOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/testify/ComplexOperationsTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +38,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.All in PluginTesting.executor": "Coverage",
-    "JUnit.ComplexOperationsTest.executor": "Run",
+    "JUnit.ComplexOperationsTest.executor": "Coverage",
     "JUnit.ComplexOperationsTest.testFactorial.executor": "Run",
     "JUnit.ComplexOperationsTest.testIsAnagram.executor": "Run",
     "JUnit.ComplexOperationsTest.testgenerateprime.executor": "Run",
@@ -63,15 +65,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/testify" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ComplexOperationsTest">
-    <configuration name="All in PluginTesting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PluginTesting" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ComplexOperationsTest.testPalindrome">
     <configuration name="ComplexOperationsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PluginTesting" />
       <extension name="coverage">
@@ -119,6 +113,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ComplexOperationsTest.testPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PluginTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.testify.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.testify" />
+      <option name="MAIN_CLASS_NAME" value="org.testify.ComplexOperationsTest" />
+      <option name="METHOD_NAME" value="testPalindrome" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ComplexOperationsTest.testgenerateprime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PluginTesting" />
       <extension name="coverage">
@@ -137,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ComplexOperationsTest.testPalindrome" />
         <item itemvalue="JUnit.ComplexOperationsTest" />
         <item itemvalue="JUnit.ComplexOperationsTest.testgenerateprime" />
         <item itemvalue="JUnit.ComplexOperationsTest.testIsAnagram" />
         <item itemvalue="JUnit.ComplexOperationsTest.testFactorial" />
-        <item itemvalue="JUnit.All in PluginTesting" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709643403657</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="is prime">
+      <option name="closed" value="true" />
+      <created>1709643764999</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709643764999</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,9 +252,16 @@
     <MESSAGE value="abc" />
     <MESSAGE value="more aesetr" />
     <MESSAGE value="gen prime" />
-    <option name="LAST_COMMIT_MESSAGE" value="gen prime" />
+    <MESSAGE value="is prime" />
+    <option name="LAST_COMMIT_MESSAGE" value="is prime" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PluginTesting$ComplexOperationsTest.ic" NAME="ComplexOperationsTest Coverage Results" MODIFIED="1709643638276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.testify.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/PluginTesting$ComplexOperationsTest_testgenerateprime.ic" NAME="ComplexOperationsTest.testgenerateprime Coverage Results" MODIFIED="1709643586383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.testify.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/PluginTesting$All_in_PluginTesting.ic" NAME="All in PluginTesting Coverage Results" MODIFIED="1709560456751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
