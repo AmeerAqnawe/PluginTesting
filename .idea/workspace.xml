@@ -5,26 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79a3eaac-e9c9-4b16-9029-216c663bffe2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/testify/ComplexOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/testify/MathUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/testify/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/testify/StringManipulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/testify/entity/BankService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/testify/entity/BaseRateProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/testify/ComplexOperationsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/testify/MathUtilsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/testify/PaymentServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/testify/StringManipulatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testify/ComplexOperationsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testify/MathUtilsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testify/PaymentServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testify/StringManipulatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/testify/ComplexOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/testify/ComplexOperationsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/testify/MathUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/testify/MathUtilsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/testify/PaymentServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/testify/PaymentServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +19,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2dGeyrzjaDFNAs27nybGdfChOfN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -42,12 +41,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.All in PluginTesting.executor": "Coverage",
-    "JUnit.ComplexOperationsTest.executor": "Run",
+    "JUnit.ComplexOperationsTest.executor": "Coverage",
+    "JUnit.ComplexOperationsTest.testCalculateFibonacci.executor": "Run",
+    "JUnit.ComplexOperationsTest.testCalculateSquare.executor": "Coverage",
+    "JUnit.MathUtilsTest.executor": "Coverage",
+    "JUnit.MathUtilsTest.testModulusWithRounding.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "paticipant8",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/ameeranqawe/MA/PluginTesting/src/test/java/com/testify",
+    "last_opened_file_path": "/home/guest008/Downloads/PluginTesting",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -65,14 +69,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.ComplexOperationsTest">
-    <configuration name="All in PluginTesting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PluginTesting" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ComplexOperationsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PluginTesting" />
       <extension name="coverage">
@@ -88,12 +84,85 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ComplexOperationsTest.testCalculateFibonacci" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PluginTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.testify.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.testify" />
+      <option name="MAIN_CLASS_NAME" value="org.testify.ComplexOperationsTest" />
+      <option name="METHOD_NAME" value="testCalculateFibonacci" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComplexOperationsTest.testCalculateSquare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PluginTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.testify.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.testify" />
+      <option name="MAIN_CLASS_NAME" value="org.testify.ComplexOperationsTest" />
+      <option name="METHOD_NAME" value="testCalculateSquare" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MathUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PluginTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.testify.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.testify" />
+      <option name="MAIN_CLASS_NAME" value="org.testify.MathUtilsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MathUtilsTest.testModulusWithRounding" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PluginTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.testify.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.testify" />
+      <option name="MAIN_CLASS_NAME" value="org.testify.MathUtilsTest" />
+      <option name="METHOD_NAME" value="testModulusWithRounding" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ComplexOperationsTest" />
-        <item itemvalue="JUnit.All in PluginTesting" />
+        <item itemvalue="JUnit.MathUtilsTest" />
+        <item itemvalue="JUnit.MathUtilsTest.testModulusWithRounding" />
+        <item itemvalue="JUnit.ComplexOperationsTest.testCalculateFibonacci" />
+        <item itemvalue="JUnit.ComplexOperationsTest.testCalculateSquare" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-f644763e9732-f00315f9" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -111,6 +180,15 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PluginTesting$ComplexOperationsTest_testCalculateSquare.ic" NAME="ComplexOperationsTest.testCalculateSquare Coverage Results" MODIFIED="1709644133862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.testify.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/PluginTesting$All_in_PluginTesting.ic" NAME="All in PluginTesting Coverage Results" MODIFIED="1709560456751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/PluginTesting$MathUtilsTest.ic" NAME="MathUtilsTest Coverage Results" MODIFIED="1709644420560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.testify.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/PluginTesting$ComplexOperationsTest.ic" NAME="ComplexOperationsTest Coverage Results" MODIFIED="1709644443280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.testify.*</FILTER>
+    </SUITE>
   </component>
 </project>
