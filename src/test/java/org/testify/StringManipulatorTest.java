@@ -20,4 +20,13 @@ public class StringManipulatorTest {
         String expected = "TEST";
         Assertions.assertEquals(expected, manipulator.toUpperCase(testString));
     }
+
+    @Test
+    void TestConcatenate() {
+        StringManipulator manipulator = new StringManipulator();
+        String testString1 = "test";
+        String testString2 = "tset";
+        String expectedString = "testtset";
+        Assertions.assertEquals(expectedString, manipulator.concatenate(testString1, testString2));
+    }
 }
