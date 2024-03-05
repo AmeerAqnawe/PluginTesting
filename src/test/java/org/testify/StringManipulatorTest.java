@@ -29,4 +29,13 @@ public class StringManipulatorTest {
         String expectedString = "testtset";
         Assertions.assertEquals(expectedString, manipulator.concatenate(testString1, testString2));
     }
+
+    @Test
+    void TestConcatenateThrowsException() {
+        StringManipulator manipulator = new StringManipulator();
+        Assertions.assertThrows(
+                IllegalArgumentException.class,
+                () -> manipulator.concatenate("Test", null)
+        );
+    }
 }
