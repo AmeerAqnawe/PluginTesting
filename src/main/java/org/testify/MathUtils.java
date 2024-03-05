@@ -41,7 +41,7 @@ public class MathUtils {
      * @return the product of a and b
      */
     public static int multiply(int a, int b) {
-        return a * 0;
+        return a * b;
     }
 
     /**
@@ -50,7 +50,7 @@ public class MathUtils {
      * @param a the dividend
      * @param b the divisor
      * @return the quotient of a divided by b
-     * @throws IllegalArgumentException if b is 0
+     * @throws ArithmeticException if b is 0
      */
     public static int divide(int a, int b) {
         return a / b;
