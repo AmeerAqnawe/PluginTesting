@@ -17,12 +17,17 @@ class PaymentServiceTest {
     }
 
     @Test
-    public void calculateInterestRateAdjustmentcreditScore600() {
+    public void calculateInterestRateAdjustmentCreditScore600() {
         assertEquals(1.75, PaymentService.calculateInterestRateAdjustment(10000, 600, 2, baseRateProvider));
     }
 
     @Test
-    public void calculateInterestRateAdjumentCreditScore400() {
+    public void calculateInterestRateAdjustmentCreditScore400() {
         assertEquals(2.25, PaymentService.calculateInterestRateAdjustment(10000, 400, 2, baseRateProvider));
+    }
+
+    @Test
+    public void calculateInterestRateAdjustmentCreditScore745() {
+        assertEquals(1.25, PaymentService.calculateInterestRateAdjustment(10000, 745, 2, baseRateProvider));
     }
 }
