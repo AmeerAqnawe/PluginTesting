@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79a3eaac-e9c9-4b16-9029-216c663bffe2" name="Changes" comment="palindorem">
+    <list default="true" id="79a3eaac-e9c9-4b16-9029-216c663bffe2" name="Changes" comment="anagram">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/testify/ComplexOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/testify/ComplexOperationsTest.java" afterDir="false" />
     </list>
@@ -41,7 +41,8 @@
     "JUnit.All in PluginTesting.executor": "Coverage",
     "JUnit.ComplexOperationsTest.executor": "Coverage",
     "JUnit.ComplexOperationsTest.testFactorial.executor": "Run",
-    "JUnit.ComplexOperationsTest.testIsAnagram.executor": "Debug",
+    "JUnit.ComplexOperationsTest.testFibonacci.executor": "Run",
+    "JUnit.ComplexOperationsTest.testIsAnagram.executor": "Coverage",
     "JUnit.ComplexOperationsTest.testPalindrome.executor": "Run",
     "JUnit.ComplexOperationsTest.testgenerateprime.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -67,7 +68,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/testify" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ComplexOperationsTest.testIsAnagram">
+  <component name="RunManager" selected="JUnit.ComplexOperationsTest.testFibonacci">
     <configuration name="ComplexOperationsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PluginTesting" />
       <extension name="coverage">
@@ -83,7 +84,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComplexOperationsTest.testFactorial" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ComplexOperationsTest.testFibonacci" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PluginTesting" />
       <extension name="coverage">
         <pattern>
@@ -93,7 +94,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.testify" />
       <option name="MAIN_CLASS_NAME" value="org.testify.ComplexOperationsTest" />
-      <option name="METHOD_NAME" value="testFactorial" />
+      <option name="METHOD_NAME" value="testFibonacci" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ComplexOperationsTest.testIsAnagram" />
+        <item itemvalue="JUnit.ComplexOperationsTest.testFibonacci" />
         <item itemvalue="JUnit.ComplexOperationsTest" />
+        <item itemvalue="JUnit.ComplexOperationsTest.testIsAnagram" />
         <item itemvalue="JUnit.ComplexOperationsTest.testPalindrome" />
         <item itemvalue="JUnit.ComplexOperationsTest.testgenerateprime" />
-        <item itemvalue="JUnit.ComplexOperationsTest.testFactorial" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +247,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709644170057</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="anagram">
+      <option name="closed" value="true" />
+      <created>1709644550206</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709644550206</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,29 +282,13 @@
     <MESSAGE value="is prime" />
     <MESSAGE value="battling mutańts" />
     <MESSAGE value="palindorem" />
-    <option name="LAST_COMMIT_MESSAGE" value="palindorem" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/org/testify/ComplexOperationsTest.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/org/testify/ComplexOperationsTest.java</url>
-          <line>12</line>
-          <properties class="org.testify.ComplexOperationsTest" method="testIsAnagram">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="anagram" />
+    <option name="LAST_COMMIT_MESSAGE" value="anagram" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PluginTesting$ComplexOperationsTest_testIsAnagram.ic" NAME="ComplexOperationsTest.testIsAnagram Coverage Results" MODIFIED="1709644531289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.testify.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/PluginTesting$ComplexOperationsTest.ic" NAME="ComplexOperationsTest Coverage Results" MODIFIED="1709644187175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.testify.*</FILTER>
     </SUITE>

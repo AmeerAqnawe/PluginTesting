@@ -148,6 +148,27 @@ public class ComplexOperationsTest {
         assertFalse(co.isPalindrome("aA"));
         assertFalse(co.isPalindrome("abab"));
 
+    }
+
+    @Test
+    public void testFibonacci() {
+        ComplexOperations co = new ComplexOperations();
+
+        assertEquals(0, co.calculateFibonacci(0));
+        assertEquals(1, co.calculateFibonacci(1));
+        assertEquals(1, co.calculateFibonacci(2));
+        assertEquals(2, co.calculateFibonacci(3));
+        assertEquals(3, co.calculateFibonacci(4));
+
+        assertNotEquals(2, co.calculateFibonacci(2));
+        assertNotEquals(1, co.calculateFibonacci(4));
+
+        assertThrows(IllegalArgumentException.class, () -> {
+            ComplexOperations oc = new ComplexOperations();
+
+            oc.calculateFibonacci(-1);
+
+        });
 
 
     }
