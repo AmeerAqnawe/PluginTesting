@@ -94,6 +94,18 @@ public class ComplexOperationsTest {
     }
 
     @Test
+    public void testIsPrime() {
+        ComplexOperations co = new ComplexOperations();
+        assertFalse(co.isPrime(1));
+        assertFalse(co.isPrime(0));
+        assertFalse(co.isPrime(-2));
+
+        assertTrue(co.isPrime(2));
+        assertTrue(co.isPrime(3));
+        assertTrue(co.isPrime(7));
+    }
+
+    @Test
     public void testgenerateprime() {
         ComplexOperations co = new ComplexOperations();
 
