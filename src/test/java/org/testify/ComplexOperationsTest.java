@@ -19,6 +19,11 @@ public class ComplexOperationsTest {
 
          assertTrue(co.isAnagram("earth", "earth"));
          assertFalse(co.isAnagram("earth", "eartha"));
+         assertFalse(co.isAnagram("aaaaa", "a"));
+        assertFalse(co.isAnagram("aabbb", "aaaaa"));
+        assertFalse(co.isAnagram("a", "ab"));
+        assertFalse(co.isAnagram("a", "aa"));
+
         assertFalse(co.isAnagram("ab", "abc"));
         assertFalse(co.isAnagram("aba", "ab"));
     }
