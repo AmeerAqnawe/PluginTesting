@@ -5,26 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79a3eaac-e9c9-4b16-9029-216c663bffe2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/testify/ComplexOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/testify/MathUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/testify/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/testify/StringManipulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/testify/entity/BankService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/testify/entity/BaseRateProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/testify/ComplexOperationsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/testify/MathUtilsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/testify/PaymentServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/testify/StringManipulatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testify/ComplexOperationsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testify/MathUtilsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testify/PaymentServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testify/StringManipulatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/testify/ComplexOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/testify/ComplexOperationsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/testify/MathUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/testify/MathUtilsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/testify/PaymentServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/testify/PaymentServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/testify/StringManipulatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/testify/StringManipulatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +20,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2dGXh17ASYYbo985GtMpUkOVnYg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -45,15 +45,17 @@
     "JUnit.ComplexOperationsTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "paticipant2",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/ameeranqawe/MA/PluginTesting/src/test/java/com/testify",
+    "last_opened_file_path": "/home/guest002/Downloads/Gamekins IntelliJ Plugin-1.1.0-SNAPSHOT(1).zip",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "/Users/ameeranqawe/MA/PluginTesting/src/main/java/com/testify/Main.java",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -94,6 +96,13 @@
         <item itemvalue="JUnit.All in PluginTesting" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-4caba194b151-3c5dfc45" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
