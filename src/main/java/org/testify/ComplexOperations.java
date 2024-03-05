@@ -14,6 +14,9 @@ public class ComplexOperations {
      * Constructs a new {@code ComplexOperations} object.
      */
     public ComplexOperations() {
+        /*
+        No initialisation needed.
+         */
     }
 
     /**
