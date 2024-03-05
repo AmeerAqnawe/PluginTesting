@@ -48,4 +48,25 @@ public class ComplexOperationsTest {
 
         });
     }
+
+    @Test
+    public void testCalculateSquare() {
+        ComplexOperations co = new ComplexOperations();
+
+        assertEquals(9, co.calculateSquare(3));
+        assertEquals(81, co.calculateSquare(9));
+
+        assertEquals(100*100, co.calculateSquare(100));
+
+        assertEquals(1024*1024, co.calculateSquare(1024));
+
+        assertThrows(IllegalArgumentException.class, () -> {
+            ComplexOperations oc = new ComplexOperations();
+
+            oc.calculateSquare(-10);
+
+        });
+
+    }
+
 }
