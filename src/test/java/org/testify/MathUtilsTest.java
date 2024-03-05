@@ -12,4 +12,9 @@ class MathUtilsTest {
    Assertions.assertTrue(mathUtils.isPositive(2));
   }
 
+  @Test
+    void TestSubtract() {
+      Assertions.assertEquals(1, MathUtils.subtract(3,2));
+  }
+
 }
