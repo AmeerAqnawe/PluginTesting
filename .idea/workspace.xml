@@ -5,26 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79a3eaac-e9c9-4b16-9029-216c663bffe2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/testify/ComplexOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/testify/MathUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/testify/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/testify/StringManipulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/testify/entity/BankService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/testify/entity/BaseRateProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/testify/ComplexOperationsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/testify/MathUtilsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/testify/PaymentServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/testify/StringManipulatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testify/ComplexOperationsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testify/MathUtilsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testify/PaymentServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testify/StringManipulatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/testify/ComplexOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/testify/ComplexOperationsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/testify/MathUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/testify/MathUtilsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/testify/PaymentServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/testify/PaymentServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/testify/StringManipulatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/testify/StringManipulatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +20,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2dGejnL15UEYvLBQQl9VDKIMQtO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -42,18 +42,37 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.All in PluginTesting.executor": "Coverage",
+    "JUnit.ComplexOperationsTest.calculateFibonacci.executor": "Run",
+    "JUnit.ComplexOperationsTest.calculateSquare.executor": "Run",
     "JUnit.ComplexOperationsTest.executor": "Run",
+    "JUnit.ComplexOperationsTest.generatePrimes.executor": "Run",
+    "JUnit.ComplexOperationsTest.isAnagram.executor": "Run",
+    "JUnit.ComplexOperationsTest.isPalindrome.executor": "Run",
+    "JUnit.MathUtilsTest.add.executor": "Run",
+    "JUnit.MathUtilsTest.divide.executor": "Run",
+    "JUnit.MathUtilsTest.executor": "Run",
+    "JUnit.MathUtilsTest.multiply.executor": "Run",
+    "JUnit.MathUtilsTest.subtract.executor": "Run",
+    "JUnit.PaymentServiceTest.calculateInterestRateAdjustment.executor": "Run",
+    "JUnit.PaymentServiceTest.executor": "Run",
+    "JUnit.PaymentServiceTest.makePayment.executor": "Run",
+    "JUnit.StringManipulatorTest.concatenate.executor": "Run",
+    "JUnit.StringManipulatorTest.longestSubstringWithoutRepeatingCharacters.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "paticipant7",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/ameeranqawe/MA/PluginTesting/src/test/java/com/testify",
+    "last_opened_file_path": "/home/guest007/Downloads/Gamekins IntelliJ Plugin-1.1.0-SNAPSHOT(1).zip",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "/Users/ameeranqawe/MA/PluginTesting/src/main/java/com/testify/Main.java",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -63,17 +82,15 @@
       <recent name="$PROJECT_DIR$/src/test/java" />
       <recent name="$PROJECT_DIR$/src/main/java/com/testify" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.testify" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.ComplexOperationsTest">
-    <configuration name="All in PluginTesting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PluginTesting" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ComplexOperationsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StringManipulatorTest.longestSubstringWithoutRepeatingCharacters">
+    <configuration name="PaymentServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PluginTesting" />
       <extension name="coverage">
         <pattern>
@@ -82,18 +99,92 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.testify" />
-      <option name="MAIN_CLASS_NAME" value="org.testify.ComplexOperationsTest" />
+      <option name="MAIN_CLASS_NAME" value="org.testify.PaymentServiceTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentServiceTest.calculateInterestRateAdjustment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PluginTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.testify.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.testify" />
+      <option name="MAIN_CLASS_NAME" value="org.testify.PaymentServiceTest" />
+      <option name="METHOD_NAME" value="calculateInterestRateAdjustment" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentServiceTest.makePayment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PluginTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.testify.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.testify" />
+      <option name="MAIN_CLASS_NAME" value="org.testify.PaymentServiceTest" />
+      <option name="METHOD_NAME" value="makePayment" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringManipulatorTest.concatenate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PluginTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.testify.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.testify" />
+      <option name="MAIN_CLASS_NAME" value="org.testify.StringManipulatorTest" />
+      <option name="METHOD_NAME" value="concatenate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringManipulatorTest.longestSubstringWithoutRepeatingCharacters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PluginTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.testify.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.testify" />
+      <option name="MAIN_CLASS_NAME" value="org.testify.StringManipulatorTest" />
+      <option name="METHOD_NAME" value="longestSubstringWithoutRepeatingCharacters" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ComplexOperationsTest" />
-        <item itemvalue="JUnit.All in PluginTesting" />
+        <item itemvalue="JUnit.StringManipulatorTest.longestSubstringWithoutRepeatingCharacters" />
+        <item itemvalue="JUnit.StringManipulatorTest.concatenate" />
+        <item itemvalue="JUnit.PaymentServiceTest.makePayment" />
+        <item itemvalue="JUnit.PaymentServiceTest" />
+        <item itemvalue="JUnit.PaymentServiceTest.calculateInterestRateAdjustment" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-4caba194b151-3c5dfc45" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
