@@ -7,9 +7,17 @@ public class StringManipulatorTest {
 
 
     @Test
-    void TeststringLength() {
+    void TestStringLength() {
         StringManipulator manipulator = new StringManipulator();
         String testString = "test";
         Assertions.assertEquals(4, manipulator.stringLength(testString));
+    }
+
+    @Test
+    void TestToUpperCase() {
+        StringManipulator manipulator = new StringManipulator();
+        String testString = "test";
+        String expected = "TEST";
+        Assertions.assertEquals(expected, manipulator.toUpperCase(testString));
     }
 }
