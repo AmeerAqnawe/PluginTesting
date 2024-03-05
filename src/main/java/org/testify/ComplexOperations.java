@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * The {@code ComplexOperations} class provides methods for performing various mathematical operations,
- * such as calculating the square and cube of a number, checking if a number is prime, calculating the factorial
+ * such as calculating thee square and cube of a number, checking if a number is prime, calculating the factorial
  * of a number, checking if a string is a palindrome, and generating a list of prime numbers.
  */
 public class ComplexOperations {
