@@ -12,4 +12,14 @@ public class ComplexOperationsTest {
         Assertions.assertEquals(4, complexOperations.calculateSquare(2));
     }
 
+    @Test
+    void TestCalculateSquareThrowsException() {
+        ComplexOperations complexOperations = new ComplexOperations();
+
+        Assertions.assertThrows(
+                IllegalArgumentException.class,
+                () -> complexOperations.calculateSquare(-3)
+                );
+    }
+
 }
