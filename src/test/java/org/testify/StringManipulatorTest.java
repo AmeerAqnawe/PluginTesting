@@ -1,21 +1,47 @@
 package org.testify;
 
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class StringManipulatorTest {
 
-    static StringManipulator stringManipulator;
+    private StringManipulator manipulator;
 
-    @BeforeAll
-    static void init(){
-        stringManipulator = new StringManipulator();
+    @BeforeEach
+    public void setUp() {
+        manipulator = new StringManipulator();
     }
 
     @Test
-    void test_concatenate(){
-        Assertions.assertEquals("test", stringManipulator.concatenate("tes", "t"));
+    public void testConcatenate() {
+        assertEquals("hello world", manipulator.concatenate("hello ", "world"));
+        Assertions.assertThrows(IllegalArgumentException.class, () -> manipulator.concatenate(null, "world"));
     }
 
+    @Test
+    public void testToUpperCase() {
+        assertEquals("HELLO", manipulator.toUpperCase("hello"));
+        Assertions.assertThrows(IllegalArgumentException.class, () -> manipulator.toUpperCase(null));
+    }
+
+    @Test
+    public void testStringLength() {
+        assertEquals(5, manipulator.stringLength("hello"));
+        Assertions.assertThrows(IllegalArgumentException.class, () -> manipulator.stringLength(null));
+    }
+
+    @Test
+    public void testLongestSubstringWithoutRepeatingCharacters() {
+        assertEquals(" world", manipulator.longestSubstringWithoutRepeatingCharacters("hello world"));
+        Assertions.assertThrows(IllegalArgumentException.class, () -> manipulator.longestSubstringWithoutRepeatingCharacters(null));
+    }
+
+    @Test
+    public void testCountSubstringOccurrences() {
+        assertEquals("Case-sensitive count: 2, Case-insensitive count: 3", manipulator.countSubstringOccurrences("hello Hello hEllo", "ello"));
+        Assertions.assertThrows(IllegalArgumentException.class, () -> manipulator.countSubstringOccurrences(null, "test"));
+    }
 }
